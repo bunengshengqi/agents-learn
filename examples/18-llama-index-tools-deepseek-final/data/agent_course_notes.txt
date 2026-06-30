@@ -1,0 +1,21 @@
+第18天 LlamaIndex Tools 学习笔记
+
+FunctionTool:
+FunctionTool 可以把任意 Python 函数转换成智能体可以使用的工具。
+它适合简单、明确、单步操作，例如查询天气、判断工作日、计算金额、调用内部 API。
+FunctionTool 的关键是函数名、参数类型、docstring 和 description 要写清楚。
+
+QueryEngineTool:
+QueryEngineTool 可以把 QueryEngine 转换成智能体可以调用的工具。
+它适合知识库问答、RAG 检索增强生成、文档问答、Obsidian 学习笔记查询、公司制度查询等场景。
+QueryEngineTool 本质是让 Agent 可以主动查询某个知识库。
+
+ToolSpecs:
+ToolSpecs 是社区创建的预设工具集，通常包含针对特定服务的一组工具。
+例如 Gmail 工具集可能包含搜索邮件、读取邮件、发送邮件、创建草稿等工具。
+它适合连接第三方服务，不需要自己从零封装每个 API。
+
+Utility Tools:
+Utility Tools 用于处理来自其他工具的大量数据。
+当工具返回很多邮件、日志、网页、PDF 内容时，不能直接全部塞给 LLM。
+Utility Tools 可以先加载、索引，再搜索相关内容，减少 token 消耗，提高答案相关性。
