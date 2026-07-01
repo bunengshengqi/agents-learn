@@ -1,0 +1,6 @@
+python-dotenv==1.1.1
+llama-index-core==0.14.23
+llama-index-llms-openai-like==0.7.2
+
+# Optional, only needed by 09_visualize_workflow_optional.py:
+# llama-index-utils-workflow
