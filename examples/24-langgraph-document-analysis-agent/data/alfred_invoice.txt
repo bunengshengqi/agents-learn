@@ -1,0 +1,11 @@
+Document: Alfred Consulting Service Invoice
+
+Client: Wayne Manor
+Service: Estate automation consulting
+Total Amount: 1200
+Number of Service Hours: 40
+Currency: USD
+
+Notes:
+- The invoice covers planning, workflow design, and automation review.
+- The client asked for the average cost per service hour.
