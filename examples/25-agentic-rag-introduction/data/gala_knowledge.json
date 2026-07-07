@@ -1,0 +1,51 @@
+{
+  "guest_profiles": [
+    {
+      "name": "Alice Chen",
+      "interests": ["AI safety", "classical music", "tennis"],
+      "achievement": "Founded an AI governance research group.",
+      "conversation_tips": "Discuss science, culture, or tennis. Avoid party politics."
+    },
+    {
+      "name": "Bob Rivera",
+      "interests": ["weather forecasting", "fireworks", "jazz"],
+      "achievement": "Designed a city-scale fireworks safety plan.",
+      "conversation_tips": "Ask about weather and fireworks timing."
+    },
+    {
+      "name": "Clara Smith",
+      "interests": ["renaissance art", "nutrition", "marathon running"],
+      "achievement": "Curated a museum exhibition on Renaissance science.",
+      "conversation_tips": "Discuss art, sport, and science."
+    }
+  ],
+  "menu": [
+    "truffle risotto",
+    "vegetarian tart",
+    "citrus salad",
+    "sparkling grape drink"
+  ],
+  "schedule": [
+    {
+      "time": "18:00",
+      "event": "guest arrival"
+    },
+    {
+      "time": "19:00",
+      "event": "dinner"
+    },
+    {
+      "time": "21:00",
+      "event": "DJ performance"
+    },
+    {
+      "time": "22:00",
+      "event": "fireworks"
+    }
+  ],
+  "party_rules": [
+    "Avoid political and religious debate.",
+    "Encourage sports, culture, and science topics.",
+    "Check weather before fireworks."
+  ]
+}
