@@ -1,0 +1,7 @@
+smolagents[telemetry]
+opentelemetry-sdk
+opentelemetry-exporter-otlp
+openinference-instrumentation-smolagents
+langfuse
+datasets
+gradio

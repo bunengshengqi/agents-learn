@@ -1,0 +1,5 @@
+{"id": "case_001", "input": "LangGraph 适合在什么场景使用？", "expected_keywords": ["多步骤", "状态", "控制"], "forbidden_keywords": ["只能聊天"], "requires_tool": true, "rubric": "回答应说明 LangGraph 适合显式流程控制、多步骤状态流转和复杂 Agent。"}
+{"id": "case_002", "input": "OpenTelemetry 里的 trace 和 span 有什么关系？", "expected_keywords": ["trace", "span", "步骤"], "forbidden_keywords": ["完全一样"], "requires_tool": true, "rubric": "回答应说明 trace 是一次完整请求，span 是其中的步骤。"}
+{"id": "case_003", "input": "LoRA 为什么能降低微调成本？", "expected_keywords": ["低秩", "少量参数", "冻结"], "forbidden_keywords": ["重新预训练全部参数"], "requires_tool": true, "rubric": "回答应说明 LoRA 冻结基础模型，只训练低秩适配器。"}
+{"id": "case_004", "input": "请计算 7 * 8，然后解释是否需要搜索。", "expected_keywords": ["56", "不需要搜索"], "forbidden_keywords": ["我查到"], "requires_tool": true, "rubric": "回答应直接计算 56，并说明简单算术不需要搜索；这里允许使用 calculator，但不应使用搜索。"}
+{"id": "case_005", "input": "GAIA 评测主要考察 Agent 什么能力？", "expected_keywords": ["真实问题", "工具", "多步骤"], "forbidden_keywords": ["只考闲聊"], "requires_tool": true, "rubric": "回答应提到 GAIA 关注真实任务、多步骤推理、工具使用和信息整合。"}
