@@ -31,7 +31,7 @@ unit1-agent-skills/
 ## 当前进度
 
 - [x] Day33：Skills 概念、产生背景、规范与设计原则
-- [ ] Skills 与 Prompt 的深入对比
+- [x] Day34：Skills 解决方案、Prompt 对比、加载机制与真实案例
 - [ ] `SKILL.md` 格式
 - [ ] Skill 安装与调用
 - [ ] 第一个可运行 Skill
