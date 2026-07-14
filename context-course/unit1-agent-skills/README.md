@@ -32,7 +32,7 @@ unit1-agent-skills/
 
 - [x] Day33：Skills 概念、产生背景、规范与设计原则
 - [x] Day34：Skills 解决方案、Prompt 对比、加载机制与真实案例
-- [ ] `SKILL.md` 格式
+- [x] Day35：`SKILL.md` 格式、目录结构、字段与编写原则
 - [ ] Skill 安装与调用
 - [ ] 第一个可运行 Skill
 - [ ] 触发评测与输出质量评测
