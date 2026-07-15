@@ -34,7 +34,7 @@ unit1-agent-skills/
 - [x] Day34：Skills 解决方案、Prompt 对比、加载机制与真实案例
 - [x] Day35：`SKILL.md` 格式、目录结构、字段与编写原则
 - [x] Day36：Skill 安装、发现、调用与排错
-- [ ] 第一个可运行 Skill
+- [x] Day37：第一个 Skill 的完整创建步骤与评价标准
 - [ ] 触发评测与输出质量评测
 - [ ] 音频文稿创作 Skill
 
