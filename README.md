@@ -434,3 +434,20 @@ git commit -m "test: add agent loop test cases"
 最终目标不是证明“看过 Agent 课程”，而是证明：
 
 > 能够使用 Python、LangGraph、RAG、MCP、FastAPI 和 Docker，独立开发、测试并交付企业级 Agent 应用。
+
+---
+
+## 十五、交流与联系
+
+如果你也在学习 AI Agent、LangGraph、RAG 或 MCP，欢迎交流。
+
+添加微信时请备注：`GitHub + 来意`
+
+<details>
+<summary>查看微信二维码</summary>
+
+<br>
+
+<img src="./assets/wechat-qr.jpg" alt="微信二维码" width="180">
+
+</details>
