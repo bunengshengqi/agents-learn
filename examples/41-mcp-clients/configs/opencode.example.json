@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "day41_learning": {
+      "type": "local",
+      "command": [
+        "/ABSOLUTE/PATH/TO/agents-learn/.venv/bin/python",
+        "/ABSOLUTE/PATH/TO/agents-learn/examples/41-mcp-clients/local_server.py"
+      ]
+    },
+    "remote_example": {
+      "type": "remote",
+      "url": "https://example.com/mcp",
+      "enabled": false
+    }
+  }
+}

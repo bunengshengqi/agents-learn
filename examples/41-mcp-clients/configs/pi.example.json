@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "day41_learning": {
+      "command": "/ABSOLUTE/PATH/TO/agents-learn/.venv/bin/python",
+      "args": [
+        "/ABSOLUTE/PATH/TO/agents-learn/examples/41-mcp-clients/local_server.py"
+      ]
+    },
+    "remote_example": {
+      "url": "https://example.com/mcp"
+    }
+  }
+}
