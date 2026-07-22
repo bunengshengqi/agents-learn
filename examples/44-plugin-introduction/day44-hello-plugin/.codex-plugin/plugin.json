@@ -1,0 +1,18 @@
+{
+  "name": "day44-hello-plugin",
+  "version": "0.1.0",
+  "description": "A minimal educational plugin for understanding Codex plugin packaging.",
+  "author": {
+    "name": "agents-learn"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Day44 Hello Plugin",
+    "shortDescription": "Learn how a plugin bundles one reusable skill.",
+    "longDescription": "A deliberately small teaching example containing a manifest and one greeting skill.",
+    "developerName": "agents-learn",
+    "category": "Productivity",
+    "capabilities": ["Instructions"],
+    "defaultPrompt": "Use the hello skill to greet me and explain what this plugin contains."
+  }
+}
