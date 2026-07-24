@@ -1,0 +1,11 @@
+{
+  "name": "text-processor-plugin",
+  "version": "1.0.0",
+  "description": "Pi package that bundles text analysis skills and connects to the local text-processor MCP server.",
+  "keywords": ["pi-package", "text-analysis", "mcp"],
+  "license": "MIT",
+  "pi": {
+    "skills": ["./skills"],
+    "extensions": ["./extensions"]
+  }
+}

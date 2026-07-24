@@ -1,0 +1,12 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": ["./plugins/text-processor-plugin.ts"],
+  "mcp": {
+    "text-processor": {
+      "command": "/Users/yuyuan/Desktop/agents-learn/.venv/bin/python",
+      "args": [
+        "/Users/yuyuan/Desktop/agents-learn/examples/43-text-processor-mcp/server.py"
+      ]
+    }
+  }
+}

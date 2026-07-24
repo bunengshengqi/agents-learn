@@ -1,0 +1,15 @@
+{
+  "name": "text-processor-plugin",
+  "version": "1.0.0",
+  "description": "Text analysis skills powered by the text-processor MCP server",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Text Processor",
+    "shortDescription": "Analyze text, extract keywords, and estimate reading level",
+    "longDescription": "A teaching plugin that bundles text analysis skills and connects to a local text-processor MCP server.",
+    "developerName": "agents-learn",
+    "category": "Productivity",
+    "capabilities": ["Instructions"]
+  }
+}
