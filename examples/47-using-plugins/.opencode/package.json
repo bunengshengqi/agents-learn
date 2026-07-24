@@ -1,0 +1,9 @@
+{
+  "name": "day47-using-plugins",
+  "version": "1.0.0",
+  "description": "Day47 example: open the Day46 text-processor plugin in OpenCode.",
+  "private": true,
+  "dependencies": {
+    "@opencode-ai/plugin": "latest"
+  }
+}

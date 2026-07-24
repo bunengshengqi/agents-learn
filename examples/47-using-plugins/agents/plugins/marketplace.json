@@ -1,0 +1,20 @@
+{
+  "name": "local-example-plugins",
+  "interface": {
+    "displayName": "Local Example Plugins"
+  },
+  "plugins": [
+    {
+      "name": "text-processor-plugin",
+      "source": {
+        "source": "local",
+        "path": "../../../46-text-processor-plugin/text-processor-plugin"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
