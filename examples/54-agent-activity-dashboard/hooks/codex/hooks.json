@@ -1,0 +1,9 @@
+{
+  "hooks": {
+    "PreToolUse":  [{ "matcher": "Bash", "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"PreToolUse\", tool:.tool_name, args:.tool_input}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "PostToolUse": [{ "matcher": "Bash", "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"PostToolUse\", tool:.tool_name, args:.tool_response}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "UserPromptSubmit": [{ "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"UserPromptSubmit\", args:.prompt}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "Stop":            [{ "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"Stop\", args:.last_assistant_message}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }],
+    "SessionStart":    [{ "hooks": [{ "type": "command", "command": "jq -c '{platform:\"codex\", event:\"SessionStart\"}' | curl -s --max-time 2 -X POST -H 'Content-Type: application/json' --data-binary @- http://localhost:8000/event || true" }] }]
+  }
+}
